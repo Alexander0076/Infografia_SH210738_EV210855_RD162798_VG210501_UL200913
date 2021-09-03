@@ -34,3 +34,13 @@ section{
 div{
     margin-bottom: 5%;
 }
+ol li{
+    text-align: initial;
+    margin: 1%;
+}
+#canvas{
+    margin: 0 auto;
+    height: 200px;
+    border: 1px solid black;
+    font-family: 'Abril Fatface', cursive;
+}

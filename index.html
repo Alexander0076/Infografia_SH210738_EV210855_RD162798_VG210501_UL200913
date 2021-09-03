@@ -66,20 +66,133 @@
             </p>
         </div>
         <hr>
-        
-        
-
+        <h1>Publicacion de un Sitio Web atravez de GitHub como Servidor:</h1>
+        <div class="card-group">
+            <div class="col">
+                <div class="card border-success" style="max-width: 90%; max-height: 100%px;">
+                    <div class="card-header">Paso: 1</div>
+                    <div class="card-body">
+                      <h5 class="card-title">Settings: </h5>
+                      <p class="card-text">Es una herramienta que mostrará las configuraciones del repositorio, el cual se podrá encontrar la opción Pages que nos permite el realizar la publicación del sitio web mediante una previa configuración.</p>
+                    </div>
+                  </div>
+            </div>
+            <div class="col">
+                <div class="card border-success" style="max-width: 90%; max-height: 100%px;">
+                    <div class="card-header">Paso: 2</div>
+                    <div class="card-body">
+                      <h5 class="card-title">Source: </h5>
+                      <p class="card-text">Esta opción es para elegir de cual branch se tomarán los archivos para publicarse. Los “User site” deben por requerimiento usar el branch master.</p>
+                    </div>
+                  </div>
+            </div>
+            <div class="col">
+                <div class="card border-success" style="max-width: 90%; max-height: 100%px;">
+                    <div class="card-header">Paso: 3</div>
+                    <div class="card-body">
+                      <h5 class="card-title">Theme Chooser: </h5>
+                      <p class="card-text">Permite seleccionar un tema para publicar utilizando la herramienta Jekyll.</p>
+                    </div>
+                  </div>
+            </div>
+            <div class="col">
+                <div class="card border-success" style="max-width: 90%; max-height: 100%px;">
+                    <div class="card-header">Paso: 4</div>
+                    <div class="card-body">
+                      <h5 class="card-title">Custom domain:</h5>
+                      <p class="card-text">Si se contara con un nombre de dominio personalizado, GiHub permite agregarlo de manera fácil, solo con seguir unos cuantos pasos.</p>
+                    </div>
+                  </div>
+            </div>
+            <div class="col">
+                <div class="card border-success" style="max-width: 90%; max-height: 100%px;">
+                    <div class="card-header">Paso: 5</div>
+                    <div class="card-body">
+                      <h5 class="card-title">Enforce HTTPS: </h5>
+                      <p class="card-text">Permite el uso de HTTPS en nuestro sitio.</p>
+                    </div>
+                  </div>
+            </div>
+          </div>
+          <hr>
+          <h1>Uso de los Comandos mas Comunes de Git/GitHub</h1>
+          <div class="card-group">
+            <div class="card mb-3" style="max-width: 90%;">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="img/git.png" class="img-fluid rounded-start" alt="...">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Iniciando repositorio</h5>
+                      <p class="card-text">
+                        <ul>
+                          <li style="text-align: initial;">git init: Inicia el GIT en la carpeta donde esta el proyecto.</li>
+                          <li style="text-align: initial;">git clone <url>: Clona el repositorio de github o bitbucket. proyecto.</li>
+                          <li style="text-align: initial;">git add: Añade todos los archivos para el commit.</li>
+                          <li style="text-align: initial;">git commit -m"texto": Realiza el primer commit.</li>
+                          <li style="text-align: initial;">git push origin master: sube todos los cambios al repositorio.</li>
+                        </ul>
+                    </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card mb-3" style="max-width: 90%;">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="img/git2.png" class="img-fluid rounded-start" alt="...">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Git Clone</h5>
+                      <p class="card-text">
+                        <ul>
+                          <li style="text-align: initial;">git clone <url>: Clona el repositorio de github o bitbucket.</li>
+                          <li style="text-align: initial;">git clone <url> git-demo: Clona el repositorio de github o bitbucket.</li>
+                        </ul>
+                    </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card mb-3" style="max-width: 90%;">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="img/git.png" class="img-fluid rounded-start" alt="...">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Git Add</h5>
+                      <p class="card-text">
+                        <ul>
+                          <li style="text-align: initial;">git add: Añade todos los archivos para el commit.</li>
+                          <li style="text-align: initial;">git add <archivo>: Añade el archivo para el commit.</li>
+                            <li style="text-align: initial;">git add --all: Añade todos los archivos para el commit omitiendo los nuevos.</li>
+                        </ul>
+                    </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+        <hr>
+        <h1>Pasos para la Instalacion de Git en Windows</h1>
+        <ol>
+            <li>Descárgate el instalador de Git para Windows más reciente. Link de descarga: <a href="https://gitforwindows.org/">https://gitforwindows.org/</a></li>
+            <li>Cuando hayas iniciado correctamente el instalador, deberías ver la pantalla del asistente de configuración de Git. Selecciona las opciones Next (Siguiente) y Finish (Finalizar) para completar la instalación. Las opciones predeterminadas son las más lógicas en la mayoría de los casos.</li>
+            <li>Abre el símbolo del sistema (o Git Bash si durante la instalación seleccionaste no usar Git desde el símbolo del sistema de Windows).</li>
+            <li>Ejecuta los siguientes comandos para configurar tu nombre de usuario y dirección de correo electrónico de Git; sustituye el nombre de Emma por el tuyo. Esta información se asociará a todas las confirmaciones que crees:
+                <ul>
+                    <li>git config --global user.name "John Smith"</li>
+                    <li>git config --global user.email "eparis@atlassian.com"</li>
+                </ul>
+            </li>
+        </ol>
+        <hr>
+        <canvas id="canvas"></canvas>
     </section>
-
-
-  
-
-
-
-
-
-
-    <canvas id="canvas" width="500" height="500" style="border: 1px solid black;"></canvas>
+    
     <script src="js/imagenes.js"></script>
     <script src="js/script.js"></script>
 

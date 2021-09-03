@@ -41,6 +41,6 @@
 var a = document.getElementById("canvas");
         var ctx = a.getContext("2d");
 
-        ctx.font = "60px Arial";
-        ctx.fillStyle = "blue";
-        ctx.fillText("GitHub", 43, 180);
+        ctx.font = "60px serif";
+        ctx.fillStyle = "Black";
+        ctx.fillText("GitHub", 43, 100);
