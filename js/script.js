@@ -38,7 +38,9 @@
 // context.moveTo(100, 235);
 // context.bezierCurveTo(105, 270, 200, 480, 300, 232);
 // context.stroke();
-var a = document.getElementById("canvas");
+
+
+        var a = document.getElementById("canvas2");
         var ctx = a.getContext("2d");
 
         ctx.font = "60px serif";
